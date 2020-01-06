@@ -50,7 +50,6 @@ from tensorboard.plugins.interactive_inference import (
     interactive_inference_plugin_loader,
 )
 from tensorboard.plugins.pr_curve import pr_curves_plugin
-from tensorboard.plugins.profile import profile_plugin_loader
 from tensorboard.plugins.scalar import scalars_plugin
 from tensorboard.plugins.text import text_plugin
 from tensorboard.plugins.mesh import mesh_plugin
@@ -73,7 +72,6 @@ _PLUGINS = [
     histograms_plugin.HistogramsPlugin,
     text_plugin.TextPlugin,
     pr_curves_plugin.PrCurvesPlugin,
-    profile_plugin_loader.ProfilePluginLoader,
     beholder_plugin_loader.BeholderPluginLoader,
     interactive_inference_plugin_loader.InteractiveInferencePluginLoader,
     hparams_plugin.HParamsPlugin,
